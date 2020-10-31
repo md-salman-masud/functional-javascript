@@ -1,0 +1,19 @@
+{
+  "name": "functional-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.14.8"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  },
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
