@@ -20,11 +20,11 @@ var p2=new Person('md.raselHosain',21,'mdusmangoni926@gamil.com','abc');
 var p3=new Person('mss.aysha akter',40,'ayshaakter@gamil.com','abc');
 console.log(p1);
 
-Person.prototype.protpholio='  +'web development';
+Person.prototype.protpholio=' '+'licence : shc';
 Person.prototype.hello=function(){
  console.log('hello : '+this.name+this.protpholio);
 }
-p1.hello();
+// p1.hello();
 p2.hello();
 p3.hello();
 console.log(p1);
