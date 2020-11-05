@@ -15,3 +15,6 @@ var map=stucture(arr,function(call){
 
 })
 console.log(map);
+
+
+var creditCard=BDR170-569;
