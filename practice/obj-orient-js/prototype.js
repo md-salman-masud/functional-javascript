@@ -28,3 +28,11 @@ Person.prototype.hello=function(){
 p2.hello();
 p3.hello();
 console.log(p1);
+
+function student(name){
+this.name=name;
+}
+var student1=new student('mamun');
+ student.prototype= Object.create(Person.prototype);
+
+student.prototype.constructor=student;
